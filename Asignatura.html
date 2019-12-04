@@ -337,10 +337,31 @@
             }
 
 
-                 if (id == null || id.length == 0 || /^\s+$/.test(id)) {
+               if (id == null || id.length == 0 || /^\s+$/.test(id)) {
                 alert("ID no puede estar vacio");
                 return false;
-            }
+                 }
+                 if (nombreAsig == null || nombreAsig.length == 0 || /^\s+$/.test(nombreAsig)) {
+                         alert("Nombre puede estar en blanco");
+                     return false;
+                 }
+                 if (nombreAsig == null || nombreAsig.length == 0 || /^\s+$/.test(nombreAsig)) {
+                         alert("Nombre puede estar en blanco");
+                     return false;
+                 }
+                 if (docente == null || docente.length == 0 || /^\s+$/.test(docente)) {
+                         alert("Docente puede estar en blanco");
+                     return false;
+                 }
+                 if (aula == null || aula.length == 0 || /^\s+$/.test(aula)) {
+                         alert("Aula puede estar en blanco");
+                     return false;
+                 }
+            
+                  if (cantidad == null || cantidad.length == 0 || /^\s+$/.test(cantidad)) {
+                         alert("cantidad puede estar en blanco");
+                     return false;
+                 }
             Asignaturas.push(Asignatura);
            
 
